@@ -2,6 +2,20 @@
   "name": "react-native-windows-extended",
   "entries": [
     {
+      "date": "Thu, 12 Sep 2019 19:27:43 GMT",
+      "tag": "react-native-windows-extended_v0.15.5",
+      "version": "0.15.5",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Updating react-native to version: 0.59.0-microsoft.79",
+            "author": "53619745+rnbot@users.noreply.github.com",
+            "commit": "af7671c8ca2d6db465fb9e345990e18b62abc981"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 11 Sep 2019 18:44:17 GMT",
       "tag": "react-native-windows-extended_v0.15.4",
       "version": "0.15.4",
