@@ -10054,9 +10054,9 @@ react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.9.0.tgz#21ca9561399aad0ff1a7701c01683e8ca981edcb"
   integrity sha512-tJBzzzIgnnRfEm046qRcURvwQnZVXmuCbscxUO5RWrGTXpon2d4c8mI0D8WE6ydVIm29JiLB6+RslkIvym9Rjw==
 
-"react-native@https://github.com/microsoft/react-native/archive/v0.60.0-microsoft.28.tar.gz":
-  version "0.60.0-microsoft.28"
-  resolved "https://github.com/microsoft/react-native/archive/v0.60.0-microsoft.28.tar.gz#fad0f343cf2ee7c277f89b86f770efa71872839e"
+react-native@tom-un/react-native#tomun/platformcolors:
+  version "0.60.0-microsoft.31"
+  resolved "https://codeload.github.com/tom-un/react-native/tar.gz/0104c939c6bda10320e011552a386a0baca622ff"
   dependencies:
     "@babel/core" "^7.4.0"
     "@babel/generator" "^7.4.0"

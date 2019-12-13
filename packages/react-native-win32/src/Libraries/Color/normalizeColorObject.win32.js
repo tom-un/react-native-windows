@@ -10,19 +10,9 @@
 const invariant = require('invariant');
 const normalizeColor = require('normalizeColor');
 
-export type NativeOrDynamicColorType = IGradientColorType;
+import type {NativeColorValue, ProcessedColorValue} from 'ColorValueTypes';
 
-export interface IColorStop {
-  color: string | number | NativeOrDynamicColorType;
-  offset: number;
-}
-
-export interface IGradientColorType {
-  gradientDirection: string;
-  colorStops: Array<IColorStop>;
-}
-
-function normalizeColorObject(color?: IGradientColorType) {
+function normalizeColorObject(color: NativeColorValue): ?ProcessedColorValue {
   if (color && typeof color === 'object') {
     if (color.hasOwnProperty('colorStops') && color.hasOwnProperty('gradientDirection')) {
       invariant(color.colorStops.length >= 2, 'Gradients must contain at least two colors.');
