@@ -7,11 +7,9 @@
 
 'use strict';
 
-export type ColorValue = null | string;
+import type ColorValue from 'ColorValueTypes';
 
 export type NativeColorValue = Object; // flowlint-line unclear-type: off
-
-export type ProcessedColorValue = number | NativeColorValue;
 
 export const PlatformColor = (
   name: string,

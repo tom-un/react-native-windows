@@ -7,13 +7,11 @@
 
 'use strict';
 
-export type ColorValue = null | string;
+import type ColorValue from 'ColorValueTypes';
 
 export type NativeColorValue = {
   windowsbrush?: string,
 };
-
-export type ProcessedColorValue = number | NativeColorValue;
 
 export const PlatformColor = (
   name: string,

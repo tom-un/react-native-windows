@@ -7,7 +7,7 @@
 
 'use strict';
 
-export type ColorValue = null | string;
+import type ColorValue from 'ColorValueTypes';
 
 export type NativeColorValue = IGradientColorType;
 
@@ -20,7 +20,6 @@ export interface IGradientColorType {
   gradientDirection: string;
   colorStops: Array<IColorStop>;
 }
-export type ProcessedColorValue = number | NativeColorValue;
 
 export const PlatformColor = (
   name: string,

@@ -10056,7 +10056,7 @@ react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
 
 react-native@tom-un/react-native#tomun/platformcolors:
   version "0.60.0-microsoft.31"
-  resolved "https://codeload.github.com/tom-un/react-native/tar.gz/0104c939c6bda10320e011552a386a0baca622ff"
+  resolved "https://codeload.github.com/tom-un/react-native/tar.gz/d4436898e190f7fbc65ce81c0260d76b31b51861"
   dependencies:
     "@babel/core" "^7.4.0"
     "@babel/generator" "^7.4.0"
