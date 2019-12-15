@@ -6,11 +6,9 @@
 
 'use strict';
 
-export type NativeOrDynamicColorType = {};
+import type {NativeColorValue, ProcessedColorValue} from 'ColorValueTypes';
 
-function normalizeColorObject(
-  color: NativeOrDynamicColorType,
-): ?(number | NativeOrDynamicColorType) {
+function normalizeColorObject(color: NativeColorValue): ?ProcessedColorValue {
   return null;
 }
 

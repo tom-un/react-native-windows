@@ -6,11 +6,9 @@
 
 'use strict';
 
-import type {NativeOrDynamicColorType} from 'normalizeColorObject';
+import type {NativeColorValue} from 'ColorValueTypes';
 
-function processColorObject(
-  color: NativeOrDynamicColorType,
-): ?NativeOrDynamicColorType {
+function processColorObject(color: NativeColorValue): ?NativeColorValue {
   return null;
 }
 

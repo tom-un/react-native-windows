@@ -6,13 +6,9 @@
 
 'use strict';
 
-export type NativeOrDynamicColorType = {
-  windowsbrush?: string,
-};
+import type {NativeColorValue, ProcessedColorValue} from 'ColorValueTypes';
 
-function normalizeColorObject(
-  color: NativeOrDynamicColorType,
-): ?(number | NativeOrDynamicColorType) {
+function normalizeColorObject(color: NativeColorValue): ?ProcessedColorValue {
   if ('windowsbrush' in color) {
     return color;
   }
